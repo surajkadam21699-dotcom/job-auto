@@ -1,5 +1,4 @@
-name: LinkedIn Job Automation with Claude AI
-
+Multi-Job Board Automation (LinkedIn, Indeed, Naukri) with Claude AI
 on:
   schedule:
       - cron: '0 9 * * 1-5'  # 9 AM on weekdays
