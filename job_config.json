@@ -1,0 +1,56 @@
+{
+    "search_parameters": {
+          "keywords": [
+                  "Software Engineer",
+                  "Backend Developer",
+                  "Full Stack Engineer",
+                  "Python Engineer",
+                  "DevOps Engineer"
+          ],
+          "locations": [
+                  "United States",
+                  "Remote",
+                  "San Francisco",
+                  "New York",
+                  "Austin"
+          ],
+          "experience_levels": [
+                  "Mid-level",
+                  "Senior"
+          ],
+          "employment_types": [
+                  "Full-time"
+          ],
+          "min_salary": 100000,
+          "max_salary": null,
+          "date_posted_filter": "7d"
+    },
+    "filtering": {
+          "exclude_companies": [],
+          "required_skills": [
+                  "Python",
+                  "JavaScript"
+          ],
+          "nice_to_have_skills": [
+                  "Kubernetes",
+                  "AWS",
+                  "PostgreSQL"
+          ]
+    },
+    "scoring": {
+          "job_match_threshold": 70,
+          "skill_match_weight": 0.4,
+          "salary_match_weight": 0.3,
+          "company_fit_weight": 0.3
+    },
+    "action": {
+          "auto_apply": true,
+          "apply_method": "easy_apply",
+          "connection_message": "Hi! I'm interested in this role. Let's connect!"
+    },
+    "logging": {
+          "google_sheets": true,
+          "slack_notifications": true,
+          "email_summary": false
+    }
+}
